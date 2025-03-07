@@ -7,9 +7,14 @@ public class Movement_Player : MonoBehaviour
     public float sensibilitàMouse = 2f; // Sensibility
     private float rotazioneOrizzontale = 0f;
     private float rotazioneVerticale = 0f;
-
+    public Player_Shooting muzzle;
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            muzzle.Fire();
+        }
+
         // Movement of the camera
         Vector3 movimento = Vector3.zero;
 
