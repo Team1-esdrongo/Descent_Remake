@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 62914
+  controlID: 13544
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 62915
+  controlID: 13545
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 62853
+  controlID: 13475
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -242,10 +242,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 61}
-      m_SelectedIDs: 6ef4fcff
-      m_LastClickedID: -199570
-      m_ExpandedIDs: f4e6fcff9834feff18e6feff44e9feff40ebfeff34f1fefffafaffff
+      scrollPos: {x: 0, y: 429}
+      m_SelectedIDs: bcaf0000
+      m_LastClickedID: 44988
+      m_ExpandedIDs: 2ad0ffff6eedffff84faffff30ab0000f2ab00003aaf0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -948,6 +948,20 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: UnityEditor.ProBuilder.MenuActionSettingsOverlay
+      index: 11
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
       scrollOffset: 0
@@ -975,9 +989,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -21.39255, y: 1.5653409, z: -0.65283626}
+    m_Target: {x: -24.253319, y: -20.56913, z: -4.430833}
     speed: 2
-    m_Value: {x: -21.39255, y: 1.5653409, z: -0.65283626}
+    m_Value: {x: -24.253319, y: -20.56913, z: -4.430833}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1002,7 +1016,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.5, y: 0.5}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -1010,7 +1024,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0.5, y: 0.5}
+      m_Size: {x: 0.005, y: 0.005}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -1018,18 +1032,18 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.5, y: 0.5}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.04398543, y: -0.8186007, z: 0.06911016, w: 0.5693342}
+    m_Target: {x: 0.18496038, y: -0.3533499, z: 0.07133626, w: 0.91455144}
     speed: 2
-    m_Value: {x: 0.04396434, y: -0.8182082, z: 0.06907703, w: 0.5690612}
+    m_Value: {x: 0.18490864, y: -0.35325107, z: 0.07131631, w: 0.9142956}
   m_Size:
-    m_Target: 0.5340849
+    m_Target: 14.84497
     speed: 2
-    m_Value: 0.5340849
+    m_Value: 14.84497
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1170,7 +1184,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -234246
+  m_LastSelectedObjectID: -12246
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1195,7 +1209,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 62916
+  controlID: 13546
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1272,7 +1286,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Core/Scenes
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1282,16 +1296,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 82
   m_LastFolders:
-  - Assets/Core/Scenes
+  - Assets
   m_LastFoldersGridSize: 82
   m_LastProjectPath: C:\Users\Alessandro\Desktop\Gruppo 1\Game designer\Descent GJ
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2ead0000
-    m_LastClickedID: 44334
-    m_ExpandedIDs: 00000000a2aa000082ac000000ca9a3bffffff7f
+    m_SelectedIDs: 38b10000
+    m_LastClickedID: 45368
+    m_ExpandedIDs: 0000000038b1000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1320,7 +1334,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a2aa000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000038b1000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1346,8 +1360,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 6ef4fcff
-    m_LastClickedInstanceID: -199570
+    m_SelectedInstanceIDs: bcaf0000
+    m_LastClickedInstanceID: 44988
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000c4ad00009e73ffffea1c030050c5000054c5000014c500002cc5000000000000168a0000fa820000fc820000
     m_RenameOverlay:
