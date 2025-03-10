@@ -8,11 +8,17 @@ public class Movement_Player : MonoBehaviour
     private float rotazioneOrizzontale = 0f;
     private float rotazioneVerticale = 0f;
     public Player_Shooting muzzle;
+    public Player_Shooting_Missle muzzle1;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             muzzle.Fire();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            muzzle1.Fire();
         }
 
         // Movement of the camera

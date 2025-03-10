@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Player_Bullet : MonoBehaviour
 {
+    [SerializeField] private float lifeTime = 6f;
+    private float _currentLifeTime = 0;
     internal void SetVelocity(Vector3 direction)
     {
         throw new NotImplementedException();
@@ -25,6 +27,16 @@ public class Player_Bullet : MonoBehaviour
         else
         {
             // Distruggi il proiettile
+            Destroy(gameObject);
+        }
+    }
+
+    private void Update()
+    {
+        _currentLifeTime += Time.deltaTime;
+
+        if (_currentLifeTime >= lifeTime)
+        {
             Destroy(gameObject);
         }
     }
