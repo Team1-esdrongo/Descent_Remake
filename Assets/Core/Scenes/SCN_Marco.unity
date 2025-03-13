@@ -801,7 +801,7 @@ GameObject:
   - component: {fileID: 1823225810}
   - component: {fileID: 1823225809}
   m_Layer: 0
-  m_Name: Crossair
+  m_Name: Temp_Crossair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
