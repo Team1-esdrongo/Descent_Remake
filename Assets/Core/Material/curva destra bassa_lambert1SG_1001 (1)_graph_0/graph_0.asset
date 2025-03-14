@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Core/Material/curva destra bassa_lambert1SG.1001 (1).sbsar
+  RawData: {fileID: -244192453324840774, guid: b1f768ef331cf6c4f8b0079dbb657e86, type: 3}
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: f0435dce-4886-46e8-a32c-599824a54c18
+  Index: 0
+  Input: []
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 4
+    Description:
+      Identifier: curva_destra_bassa_lambert1SG_BaseMap.1001
+      Label: curva_destra_bassa_lambert1SG_BaseMap.1001
+      Index: 0
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: 6c88eb784cc9e4c458ab2058ab2bd7b4, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BaseMap
+  - Index: 1
+    VirtualOutputIndex: 5
+    Description:
+      Identifier: curva_destra_bassa_lambert1SG_MaskMap.1001
+      Label: curva_destra_bassa_lambert1SG_MaskMap.1001
+      Index: 1
+      Type: 8
+      Channel: metallic
+    OutputTexture: {fileID: 2800000, guid: c923a96e3fe07c24baa759e3b47e30f1, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _MetallicGlossMap
+  - Index: 2
+    VirtualOutputIndex: 6
+    Description:
+      Identifier: curva_destra_bassa_lambert1SG_Normal.1001
+      Label: curva_destra_bassa_lambert1SG_Normal.1001
+      Index: 2
+      Type: 8
+      Channel: normal
+    OutputTexture: {fileID: 2800000, guid: 407fd50ff4877fb43aace6aeff03250d, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BumpMap
+  - Index: 3
+    VirtualOutputIndex: 7
+    Description:
+      Identifier: curva_destra_bassa_lambert1SG_Emissive.1001
+      Label: curva_destra_bassa_lambert1SG_Emissive.1001
+      Index: 3
+      Type: 8
+      Channel: emissive
+    OutputTexture: {fileID: 2800000, guid: 55cdc6786b6ad9b40950583de2b99601, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _EmissionMap
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  CurrentStatePreset: 
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 0
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: 6a0db00daffb4c7469246fd52068e763, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://curva_destra_bassa_lambert1SG.1001\"
+    label=\"\" >\n </sbspreset>\n"
+  MaterialShader: Universal Render Pipeline/Lit
+  RenderTextures: 0
+  OutputRemaped: 0
+  Presets: []
+  references:
+    version: 2
+    RefIds: []
