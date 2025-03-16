@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Core/Material/Poster/poster_lenin.1001.sbsar
+  RawData: {fileID: -244192453324840774, guid: 246ec0e44a31a9543a1d2ac485c4a5cc, type: 3}
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: 76eeea90-378c-44ae-ac0e-22be1781d657
+  Index: 0
+  Input: []
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 3
+    Description:
+      Identifier: poster_lenin_BaseMap.1001
+      Label: poster_lenin_BaseMap.1001
+      Index: 0
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: 9e55aa44029076c45854b7e19dcedb82, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BaseMap
+  - Index: 1
+    VirtualOutputIndex: 4
+    Description:
+      Identifier: poster_lenin_MaskMap.1001
+      Label: poster_lenin_MaskMap.1001
+      Index: 1
+      Type: 8
+      Channel: metallic
+    OutputTexture: {fileID: 2800000, guid: 2fcee3e4cf64b104db134fe5b50b8791, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _MetallicGlossMap
+  - Index: 2
+    VirtualOutputIndex: 5
+    Description:
+      Identifier: poster_lenin_Normal.1001
+      Label: poster_lenin_Normal.1001
+      Index: 2
+      Type: 8
+      Channel: normal
+    OutputTexture: {fileID: 2800000, guid: b846bb72d11fcf34c8494ad436cb5812, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BumpMap
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  CurrentStatePreset: 
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 0
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: b635361acafff264e8174bfb021e00ba, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://poster_lenin.1001\" label=\"\" >\n </sbspreset>\n"
+  MaterialShader: Universal Render Pipeline/Lit
+  RenderTextures: 0
+  OutputRemaped: 0
+  Presets: []
+  references:
+    version: 2
+    RefIds: []
