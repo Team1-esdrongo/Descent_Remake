@@ -413,7 +413,7 @@ Transform:
   m_GameObject: {fileID: 2051774999696433566}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.00000071178795, z: -37.284348}
+  m_LocalPosition: {x: -0.00000027939677, y: 0.00000071178795, z: -34.143612}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -638,6 +638,7 @@ GameObject:
   - component: {fileID: 5710681063615444834}
   - component: {fileID: 3650714403379813574}
   - component: {fileID: 6551321739110072034}
+  - component: {fileID: 483198697755089585}
   m_Layer: 0
   m_Name: interno_porta
   m_TagString: Untagged
@@ -756,6 +757,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 300}
   m_Center: {x: -1, y: 124, z: -0.53}
+--- !u!114 &483198697755089585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2591892432464867626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df71c2e94196564fa98cc44abbf5241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyRequired: Green_Key
 --- !u!1 &3673210564629446157
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,6 +893,7 @@ GameObject:
   - component: {fileID: 5230889410729299368}
   - component: {fileID: 1379042996213998699}
   - component: {fileID: 6180280754390534599}
+  - component: {fileID: 2260809704833948796}
   m_Layer: 0
   m_Name: interno_porta
   m_TagString: Untagged
@@ -997,6 +1012,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 300}
   m_Center: {x: -1, y: 124, z: -0.53}
+--- !u!114 &2260809704833948796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3957884342593226779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df71c2e94196564fa98cc44abbf5241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyRequired: Orange_Key
 --- !u!1 &4521357735963850238
 GameObject:
   m_ObjectHideFlags: 0
