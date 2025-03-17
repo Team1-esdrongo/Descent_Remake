@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Core/Material/Zona Arancione/T_struttura_porta_arancio.sbsar
+  RawData: {fileID: -244192453324840774, guid: e5d069bf4a3f2cb49b6e107e7f99f2e5, type: 3}
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: 8ea06e34-a9b0-4ff9-b4dd-95635a912498
+  Index: 0
+  Input: []
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 6
+    Description:
+      Identifier: una_merda_struttura_porta_BaseColor
+      Label: una_merda_struttura_porta_BaseColor
+      Index: 0
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: 14ba144cf7a29df45924502e87187717, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BaseMap
+  - Index: 1
+    VirtualOutputIndex: 7
+    Description:
+      Identifier: una_merda_struttura_porta_Roughness
+      Label: una_merda_struttura_porta_Roughness
+      Index: 1
+      Type: 8
+      Channel: roughness
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _RoughnessMap
+  - Index: 2
+    VirtualOutputIndex: 8
+    Description:
+      Identifier: una_merda_struttura_porta_Metallic
+      Label: una_merda_struttura_porta_Metallic
+      Index: 2
+      Type: 8
+      Channel: metallic
+    OutputTexture: {fileID: 2800000, guid: f9b0f705b3b03d444accedb262bc6a91, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: una_merda_struttura_porta_Roughness
+    InvertAssignedAlpha: 1
+    Flags: 0
+    MaterialTextureTarget: _MetallicGlossMap
+  - Index: 3
+    VirtualOutputIndex: 9
+    Description:
+      Identifier: una_merda_struttura_porta_Normal
+      Label: una_merda_struttura_porta_Normal
+      Index: 3
+      Type: 8
+      Channel: normal
+    OutputTexture: {fileID: 2800000, guid: 18ad1dfdb6b350147aefefda39351097, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BumpMap
+  - Index: 4
+    VirtualOutputIndex: 10
+    Description:
+      Identifier: una_merda_struttura_porta_Height
+      Label: una_merda_struttura_porta_Height
+      Index: 4
+      Type: 8
+      Channel: height
+    OutputTexture: {fileID: 2800000, guid: f5cf47cc0857f864d800866eb554f3ef, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _ParallaxMap
+  - Index: 5
+    VirtualOutputIndex: 11
+    Description:
+      Identifier: una_merda_struttura_porta_AO
+      Label: una_merda_struttura_porta_AO
+      Index: 5
+      Type: 8
+      Channel: ambientOcclusionBase
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  CurrentStatePreset: 
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 0
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: 8f9b365237173474384f28a9e487d53b, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://una_merda_struttura_porta\" label=\"\"
+    >\n </sbspreset>\n"
+  MaterialShader: Universal Render Pipeline/Lit
+  RenderTextures: 0
+  OutputRemaped: 0
+  Presets: []
+  references:
+    version: 2
+    RefIds: []

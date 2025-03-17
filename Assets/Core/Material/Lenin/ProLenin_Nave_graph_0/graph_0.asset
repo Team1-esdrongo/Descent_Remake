@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Core/Material/Lenin/ProLenin_Nave.sbsar
+  RawData: {fileID: -244192453324840774, guid: b354feb32819f384bac297c188445c78, type: 3}
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: 04e2a9e5-da21-4a29-b5bc-4f15650db88c
+  Index: 0
+  Input: []
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 7
+    Description:
+      Identifier: ProLenin_Nave_BaseColor
+      Label: ProLenin_Nave_BaseColor
+      Index: 0
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: ea233b810d53079469a9446cc1d2b144, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BaseMap
+  - Index: 1
+    VirtualOutputIndex: 8
+    Description:
+      Identifier: ProLenin_Nave_Roughness
+      Label: ProLenin_Nave_Roughness
+      Index: 1
+      Type: 8
+      Channel: roughness
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _RoughnessMap
+  - Index: 2
+    VirtualOutputIndex: 9
+    Description:
+      Identifier: ProLenin_Nave_Metallic
+      Label: ProLenin_Nave_Metallic
+      Index: 2
+      Type: 8
+      Channel: metallic
+    OutputTexture: {fileID: 2800000, guid: 50083fc602d102245b98368da1170f23, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: ProLenin_Nave_Roughness
+    InvertAssignedAlpha: 1
+    Flags: 0
+    MaterialTextureTarget: _MetallicGlossMap
+  - Index: 3
+    VirtualOutputIndex: 10
+    Description:
+      Identifier: ProLenin_Nave_Normal
+      Label: ProLenin_Nave_Normal
+      Index: 3
+      Type: 8
+      Channel: normal
+    OutputTexture: {fileID: 2800000, guid: 253f8783f95f09145bd02602f5dc8338, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BumpMap
+  - Index: 4
+    VirtualOutputIndex: 11
+    Description:
+      Identifier: ProLenin_Nave_Height
+      Label: ProLenin_Nave_Height
+      Index: 4
+      Type: 8
+      Channel: height
+    OutputTexture: {fileID: 2800000, guid: 1899f69b39fe1a347bab6ba64eb17e08, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _ParallaxMap
+  - Index: 5
+    VirtualOutputIndex: 12
+    Description:
+      Identifier: ProLenin_Nave_Emissive
+      Label: ProLenin_Nave_Emissive
+      Index: 5
+      Type: 8
+      Channel: emissive
+    OutputTexture: {fileID: 2800000, guid: 87bdef75e9b508441a647fe0f8dfdb76, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _EmissionMap
+  - Index: 6
+    VirtualOutputIndex: 13
+    Description:
+      Identifier: ProLenin_Nave_AO
+      Label: ProLenin_Nave_AO
+      Index: 6
+      Type: 8
+      Channel: ambientOcclusionBase
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  CurrentStatePreset: 
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 0
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: ec0d57a8a0583084e9b422cdce15d918, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://ProLenin_Nave\" label=\"\" >\n </sbspreset>\n"
+  MaterialShader: Universal Render Pipeline/Lit
+  RenderTextures: 0
+  OutputRemaped: 0
+  Presets: []
+  references:
+    version: 2
+    RefIds: []
