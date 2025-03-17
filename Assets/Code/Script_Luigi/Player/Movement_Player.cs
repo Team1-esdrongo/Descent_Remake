@@ -9,6 +9,13 @@ public class Movement_Player : MonoBehaviour
     private float rotazioneVerticale = 0f;
     public Player_Shooting muzzle;
     public Player_Shooting_Missle muzzle1;
+    private Rigidbody _rigidbody;
+    public Vector3 movimento;
+
+    private void Awake()
+    {
+        _rigidbody = GetComponent <Rigidbody>();
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -21,8 +28,8 @@ public class Movement_Player : MonoBehaviour
             muzzle1.Fire();
         }
 
-        // Movement of the camera
-        Vector3 movimento = Vector3.zero;
+        // Movement of the player
+        movimento = Vector3.zero;
 
         // Rotation of the camera
         Quaternion rotazioneCamera = cameraPrincipale.transform.rotation;
@@ -57,17 +64,18 @@ public class Movement_Player : MonoBehaviour
 
         movimento = movimento.normalized * velocità * Time.deltaTime;
 
-        transform.Translate(movimento, Space.World);
+        _rigidbody.linearVelocity = movimento;
+        //transform.Translate(movimento, Space.World);
 
         float mouseX = Input.GetAxis("Mouse X") * sensibilitàMouse; // Orizontal movement
         float mouseY = Input.GetAxis("Mouse Y") * sensibilitàMouse; // Vertical movement
 
         rotazioneOrizzontale += mouseX;
-        rotazioneVerticale -= mouseY;
+        rotazioneVerticale += mouseY;
         rotazioneVerticale = Mathf.Clamp(rotazioneVerticale, -90f, 90f); // Limit the vertical rotation
 
         // Applicare la rotazione alla fotocamera e al giocatore
-        cameraPrincipale.transform.rotation = Quaternion.Euler(rotazioneVerticale, rotazioneOrizzontale, 0);
-        transform.rotation = Quaternion.Euler(0, rotazioneOrizzontale, 0);
+        //cameraPrincipale.transform.rotation = Quaternion.Euler(-rotazioneVerticale, /*rotazioneOrizzontale*/ cameraPrincipale.transform.eulerAngles.y, cameraPrincipale.transform.eulerAngles.z);
+        transform.rotation = Quaternion.Euler(-rotazioneVerticale, rotazioneOrizzontale, 0);
     }
 }
