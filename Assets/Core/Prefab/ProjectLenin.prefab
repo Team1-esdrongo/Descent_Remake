@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7690c9ba73fc0ff4ba65fa13fbd67aff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 100
 --- !u!114 &5138141593970287975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,14 +245,14 @@ MonoBehaviour:
   waypointHolder: {fileID: 3507257805169796396}
   projectilePrefab: {fileID: 5088310105657715232, guid: 0a78cfb55edf20f4caf326a791d09e94, type: 3}
   projectileSpawnPoint: {fileID: 1659989987195878415}
-  moveSpeed: 20
+  moveSpeed: 5
   rotationSpeed: 7.5
   circleDuration: 5
   waypointDistanceThreshold: 2
-  attackRange: 35
+  attackRange: 30
   attackDuration: 3
-  shootInterval: 0.5
-  projectileSpeed: 60
+  shootInterval: 4
+  projectileSpeed: 20
   angleToShootAtPlayer: 0.1
 --- !u!65 &763834065607105234
 BoxCollider:

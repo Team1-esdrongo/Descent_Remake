@@ -255,6 +255,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2074180890049544666, guid: 076c275788e4c684491de20996e632e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.151672
+      objectReference: {fileID: 0}
     - target: {fileID: 2079791534567544706, guid: 076c275788e4c684491de20996e632e7, type: 3}
       propertyPath: m_Convex
       value: 0
@@ -318,6 +322,14 @@ PrefabInstance:
     - target: {fileID: 3098315433797237554, guid: 076c275788e4c684491de20996e632e7, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214708330649557863, guid: 076c275788e4c684491de20996e632e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.36769104
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214708330649557863, guid: 076c275788e4c684491de20996e632e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.950985
       objectReference: {fileID: 0}
     - target: {fileID: 3271135719843207549, guid: 076c275788e4c684491de20996e632e7, type: 3}
       propertyPath: m_Layer
@@ -1262,6 +1274,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1206666650}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2200,6 +2216,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1637682018}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2694,6 +2714,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1979451780}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3241,6 +3265,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 103245587}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3416,6 +3444,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1474173088}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5917,6 +5949,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 904239497}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6395,6 +6431,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 726389923}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7007,6 +7047,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1281896390}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7586,6 +7630,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 850938276}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8494,6 +8542,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 991179861}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9521,6 +9573,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1698961230}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9820,6 +9876,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 2004868751}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10813,6 +10873,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1147378598}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11002,6 +11066,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1033178519}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11355,6 +11423,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1610275877}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11745,6 +11817,10 @@ PrefabInstance:
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 609791234}
+    - target: {fileID: 6266394354506511078, guid: f0b359af877fd2d409f81dd231a14f94, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3510529940077070926, guid: ed8e18c4b44275a4c9112ccfac0e4ba9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13587,6 +13663,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 588717704642384430, guid: aef1c3b3ee2a76f478fc4a014f496491, type: 3}
+      propertyPath: "velocita\u0300"
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2159723382496172121, guid: aef1c3b3ee2a76f478fc4a014f496491, type: 3}
       propertyPath: m_Name
       value: Navicella player
@@ -14003,9 +14083,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 154111842}
     - target: {fileID: 3467678529426484075, guid: 97964b7f45c79d84c84c1c615ef4ab68, type: 3}
+      propertyPath: attackRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467678529426484075, guid: 97964b7f45c79d84c84c1c615ef4ab68, type: 3}
       propertyPath: waypointHolder
       value: 
       objectReference: {fileID: 1277471771}
+    - target: {fileID: 9001695447586781268, guid: 97964b7f45c79d84c84c1c615ef4ab68, type: 3}
+      propertyPath: health
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

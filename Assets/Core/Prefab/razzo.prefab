@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 6
-  damage: 1
+  damage: 25
 --- !u!64 &5399664694621454358
 MeshCollider:
   m_ObjectHideFlags: 0

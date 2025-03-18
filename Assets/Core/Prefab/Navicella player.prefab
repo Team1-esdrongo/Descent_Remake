@@ -150,9 +150,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef37cb1f73e432543b63e8631584e63a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "velocita\u0300": 5
+  "velocita\u0300": 4
   cameraPrincipale: {fileID: 7705970541794219528}
-  "sensibilita\u0300Mouse": 2
+  "sensibilita\u0300Mouse": 3
   muzzle: {fileID: 5900081538328433166}
   muzzle1: {fileID: 7536390212769170662}
 --- !u!114 &8801626187147927234

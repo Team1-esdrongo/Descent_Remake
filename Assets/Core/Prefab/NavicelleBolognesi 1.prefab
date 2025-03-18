@@ -135,14 +135,14 @@ MonoBehaviour:
   waypointHolder: {fileID: 0}
   projectilePrefab: {fileID: 8534554651296106213, guid: 8088bc2f647efa442b29ce1cf75b0b20, type: 3}
   projectileSpawnPoint: {fileID: 9052129575926871400}
-  moveSpeed: 20
+  moveSpeed: 10
   rotationSpeed: 7.5
   circleDuration: 5
   waypointDistanceThreshold: 2
-  attackRange: 35
-  attackDuration: 3
-  shootInterval: 0.5
-  projectileSpeed: 60
+  attackRange: 10
+  attackDuration: 20
+  shootInterval: 2.5
+  projectileSpeed: 5
   angleToShootAtPlayer: 0.1
 --- !u!114 &9001695447586781268
 MonoBehaviour:
