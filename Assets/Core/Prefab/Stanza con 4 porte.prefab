@@ -1550,6 +1550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3d_stanza_24_4_porta
       objectReference: {fileID: 0}
+    - target: {fileID: 6640157031461289360, guid: f88fd1fd1f3becd49ada9caa396f10fd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f280506505b520340a6e3bb55203dbde, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
