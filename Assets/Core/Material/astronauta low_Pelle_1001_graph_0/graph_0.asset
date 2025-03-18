@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
   m_Name: graph_0
   m_EditorClassIdentifier: 
-  AssetPath: Assets/astronauta low_Pelle.1001.sbsar
-  RawData: {fileID: -244192453324840774, guid: 91d8261a9a2c30c4bbd1f048bfc52056, type: 3}
+  AssetPath: Assets/Core/Material/astronauta low_Pelle.1001.sbsar
+  RawData: {fileID: -244192453324840774, guid: 67fedc308b59a454b97c9dc6dcea095d, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: e2070175-1ee3-42c2-a06d-cd6b2bcce6ae
+  GUID: f6ae8fd7-f865-47e7-bba7-a72b4473096a
   Index: 0
   Input: []
   Output:
@@ -29,7 +29,7 @@ MonoBehaviour:
       Index: 0
       Type: 8
       Channel: baseColor
-    OutputTexture: {fileID: 2800000, guid: a0a1111e609b8494cb8b447ed3ace562, type: 3}
+    OutputTexture: {fileID: 2800000, guid: 7505a67176b9ee14fbc2398df737f708, type: 3}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
       Index: 1
       Type: 8
       Channel: metallic
-    OutputTexture: {fileID: 2800000, guid: 3607ee23d36bf6443bd55b8f5cd2675a, type: 3}
+    OutputTexture: {fileID: 2800000, guid: d2617d60356651a4d94f42af51c38403, type: 3}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -61,7 +61,7 @@ MonoBehaviour:
       Index: 2
       Type: 8
       Channel: normal
-    OutputTexture: {fileID: 2800000, guid: 8a906e7048efb1a4da336785dea5388d, type: 3}
+    OutputTexture: {fileID: 2800000, guid: 7c03ecbd60c9a3e46bf672b69d67fcaa, type: 3}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 0
@@ -77,7 +77,7 @@ MonoBehaviour:
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
-  OutputMaterial: {fileID: 2100000, guid: 1d65c47373de44541bf5090a4d078497, type: 2}
+  OutputMaterial: {fileID: 2100000, guid: 7da4a88a240a83147acc6869a2ada37a, type: 2}
   DefaultPreset: " <sbspreset pkgurl=\"pkg://astronauta_low_Pelle.1001\" label=\"\"
     >\n </sbspreset>\n"
   MaterialShader: Universal Render Pipeline/Lit

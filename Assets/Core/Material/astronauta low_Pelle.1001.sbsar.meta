@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91d8261a9a2c30c4bbd1f048bfc52056
+guid: 67fedc308b59a454b97c9dc6dcea095d
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,4 +8,4 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
-  _fileAsset: {fileID: 6013892654665635331, guid: 91d8261a9a2c30c4bbd1f048bfc52056, type: 3}
+  _fileAsset: {fileID: 6013892654665635331, guid: 67fedc308b59a454b97c9dc6dcea095d, type: 3}

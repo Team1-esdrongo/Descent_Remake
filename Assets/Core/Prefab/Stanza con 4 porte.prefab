@@ -156,7 +156,6 @@ GameObject:
   - component: {fileID: 1854213738333978675}
   - component: {fileID: 181078931863442022}
   - component: {fileID: 3517748062725780567}
-  - component: {fileID: 5348609530195759990}
   m_Layer: 0
   m_Name: interno_porta
   m_TagString: Untagged
@@ -253,27 +252,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
-  m_Center: {x: -1, y: 124, z: -0.53}
---- !u!65 &5348609530195759990
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569826874833202346}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 144, y: 252, z: 300}
   m_Center: {x: -1, y: 124, z: -0.53}
 --- !u!1 &1144953993236565819
 GameObject:
@@ -506,7 +484,6 @@ GameObject:
   - component: {fileID: 6263970219419967479}
   - component: {fileID: 7600257459207676120}
   - component: {fileID: 1809159007913162992}
-  - component: {fileID: 472890644835207957}
   m_Layer: 0
   m_Name: interno_porta
   m_TagString: Untagged
@@ -604,27 +581,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
   m_Center: {x: -1, y: 124, z: -0.53}
---- !u!65 &472890644835207957
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2351162743040758025}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 144, y: 252, z: 300}
-  m_Center: {x: -1, y: 124, z: -0.53}
 --- !u!1 &2591892432464867626
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,7 +593,6 @@ GameObject:
   - component: {fileID: 8238919572638803186}
   - component: {fileID: 5710681063615444834}
   - component: {fileID: 3650714403379813574}
-  - component: {fileID: 6551321739110072034}
   - component: {fileID: 483198697755089585}
   m_Layer: 0
   m_Name: interno_porta
@@ -735,27 +690,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
-  m_Center: {x: -1, y: 124, z: -0.53}
---- !u!65 &6551321739110072034
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2591892432464867626}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 144, y: 252, z: 300}
   m_Center: {x: -1, y: 124, z: -0.53}
 --- !u!114 &483198697755089585
 MonoBehaviour:
@@ -892,7 +826,6 @@ GameObject:
   - component: {fileID: 2683821529176052890}
   - component: {fileID: 5230889410729299368}
   - component: {fileID: 1379042996213998699}
-  - component: {fileID: 6180280754390534599}
   - component: {fileID: 2260809704833948796}
   m_Layer: 0
   m_Name: interno_porta
@@ -990,27 +923,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
-  m_Center: {x: -1, y: 124, z: -0.53}
---- !u!65 &6180280754390534599
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3957884342593226779}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 144, y: 252, z: 300}
   m_Center: {x: -1, y: 124, z: -0.53}
 --- !u!114 &2260809704833948796
 MonoBehaviour:

@@ -142,7 +142,7 @@ MonoBehaviour:
   attackRange: 10
   attackDuration: 20
   shootInterval: 2.5
-  projectileSpeed: 5
+  projectileSpeed: 10
   angleToShootAtPlayer: 0.1
 --- !u!114 &9001695447586781268
 MonoBehaviour:
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7690c9ba73fc0ff4ba65fa13fbd67aff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 12
 --- !u!136 &3048321599246125672
 CapsuleCollider:
   m_ObjectHideFlags: 0
