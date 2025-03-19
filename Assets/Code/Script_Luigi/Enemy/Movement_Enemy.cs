@@ -192,7 +192,7 @@ public class Movement_Enemy : MonoBehaviour
         while (true)
         {
             yield return StartCoroutine(CircleState(circleDuration));
-            //yield return StartCoroutine(AttackState(attackDuration));
+            yield return StartCoroutine(AttackState(attackDuration));
         }
     }
 }
