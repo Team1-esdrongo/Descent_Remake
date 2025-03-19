@@ -19,7 +19,7 @@ public class Player_Bullet : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             // Infliggi danno al nemico
-            other.GetComponent<Enemy_Health>().TakeDamage(damage);
+            other.GetComponent<Enemy_Health> ().TakeDamage(damage);
 
             // Distruggi il proiettile
             Destroy(gameObject);
