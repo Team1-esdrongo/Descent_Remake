@@ -8,6 +8,7 @@ public class Movement_Enemy : MonoBehaviour
     [SerializeField] private WaypointHolder waypointHolder;
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform projectileSpawnPoint;
+    [SerializeField] private Rigidbody _rigidbody;
 
 
     [Header("Movement Settings")]
@@ -103,7 +104,8 @@ public class Movement_Enemy : MonoBehaviour
             Quaternion.LookRotation(dir),
             Time.deltaTime * rotationSpeed
         );
-        transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        //transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        _rigidbody.linearVelocity = dir*Time.deltaTime*moveSpeed;
     }
 
 
