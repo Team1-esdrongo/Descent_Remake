@@ -26,10 +26,23 @@ public class Player_Bullet : MonoBehaviour
         }
         else
         {
+            if (other.CompareTag("walltodestroy"))
+            {
+
+
+                // Distruggi il proiettile
+                Destroy(other.gameObject);
+            }
+
             // Distruggi il proiettile
-            Destroy(gameObject);
+            Destroy(gameObject); 
+
+
+
         }
+        
     }
+
 
     private void Update()
     {

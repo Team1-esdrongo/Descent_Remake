@@ -9,6 +9,7 @@ public class Movement_Enemy : MonoBehaviour
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform projectileSpawnPoint;
     [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private CharacterController _cc;
 
 
     [Header("Movement Settings")]
@@ -105,7 +106,8 @@ public class Movement_Enemy : MonoBehaviour
             Time.deltaTime * rotationSpeed
         );
         //transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-        _rigidbody.linearVelocity = dir*Time.deltaTime*moveSpeed;
+        //_rigidbody.linearVelocity = dir*Time.deltaTime*moveSpeed;
+        _cc.Move(dir * Time.deltaTime * moveSpeed);
     }
 
 

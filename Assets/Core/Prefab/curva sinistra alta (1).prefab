@@ -819,6 +819,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -190691218721998355, guid: 780cd6481cad99341bf3c6731a7167bd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5540281781444796304}
+    - targetCorrespondingSourceObject: {fileID: -190691218721998355, guid: 780cd6481cad99341bf3c6731a7167bd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1898762693326852292}
     - targetCorrespondingSourceObject: {fileID: 6274517385865540107, guid: 780cd6481cad99341bf3c6731a7167bd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8178454064055185749}
@@ -908,6 +911,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
   m_Center: {x: -1, y: 124, z: -0.53}
+--- !u!114 &1898762693326852292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8555745415911792188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5a7c7ea22dd6a46a5ce24d490f6e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 5
+  moveSpeed: 2
+  openDelay: 2
+  activationRange: 5
 --- !u!1001 &2736053539667246843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1337,6 +1356,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -190691218721998355, guid: 780cd6481cad99341bf3c6731a7167bd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7166725551630880822}
+    - targetCorrespondingSourceObject: {fileID: -190691218721998355, guid: 780cd6481cad99341bf3c6731a7167bd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 704156567218907354}
     - targetCorrespondingSourceObject: {fileID: 6274517385865540107, guid: 780cd6481cad99341bf3c6731a7167bd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8457995539890577926}
@@ -1377,6 +1399,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
   m_Center: {x: -1, y: 124, z: -0.53}
+--- !u!114 &704156567218907354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5980159432584637088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5a7c7ea22dd6a46a5ce24d490f6e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 5
+  moveSpeed: 2
+  openDelay: 2
+  activationRange: 5
 --- !u!1 &6146770632123786000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8857167988435710045, guid: 780cd6481cad99341bf3c6731a7167bd, type: 3}
