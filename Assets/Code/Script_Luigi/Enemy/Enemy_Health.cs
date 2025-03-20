@@ -5,6 +5,7 @@ public class Enemy_Health : MonoBehaviour
     public int health = 3;
     public delegate void DeathHandler();
     public event DeathHandler OnDeath;
+    [SerializeField] private Enemy_Score enemy_Score;
 
     // This method is called to inflict damage to the enemy
     public void TakeDamage(int damage)
@@ -22,6 +23,7 @@ public class Enemy_Health : MonoBehaviour
 
     private void Die()
     {
-        Destroy(gameObject); // Destroy the enemy
+        enemy_Score.Die();
+        //Destroy(gameObject); // Destroy the enemy
     }
 }

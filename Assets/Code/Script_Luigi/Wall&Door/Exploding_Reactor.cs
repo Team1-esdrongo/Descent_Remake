@@ -4,15 +4,15 @@ using TMPro;
 public class Exploding_Reactor : MonoBehaviour
 {
     public float reactorHealth = 20f;              // Salute del reattore
-    public TextMeshProUGUI winText;                // Riferimento al testo di vittoria
+    public TextMeshProUGUI runText;                // Riferimento al testo di vittoria
     public string[] damagingPrefabs;               // Prefabs di colpi che danneggiano il reattore
 
     void Start()
     {
         // Inizializza il testo a schermo: all'inizio il testo di vittoria è invisibile
-        if (winText != null)
+        if (runText != null)
         {
-            winText.text = ""; // Nessun testo iniziale
+            runText.text = ""; // Nessun testo iniziale
         }
     }
 
@@ -49,9 +49,9 @@ public class Exploding_Reactor : MonoBehaviour
     void ReactorDestroyed()
     {
         // Dichiarazione di vittoria
-        if (winText != null)
+        if (runText != null)
         {
-            winText.text = "Hai vinto! Il reattore è stato distrutto!";
+            runText.text = "Fuggi dai comunisti!!!";
         }
 
         // Distruggi il GameObject del reattore (se necessario)
