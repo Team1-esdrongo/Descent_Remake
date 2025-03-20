@@ -42,12 +42,13 @@ GameObject:
   - component: {fileID: 1965143464584935887}
   - component: {fileID: 9063855127751319263}
   - component: {fileID: 6266394354506511078}
+  - component: {fileID: -6723532631448044787}
   - component: {fileID: 4999229208544519343}
   - component: {fileID: 413197691820712911}
   - component: {fileID: -5569526816277254106}
   m_Layer: 0
   m_Name: Project Dazhao
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,6 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 28
+  enemy_Score: {fileID: -6723532631448044787}
 --- !u!114 &6266394354506511078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,9 +100,9 @@ MonoBehaviour:
   waypointHolder: {fileID: 0}
   projectilePrefab: {fileID: 2463328139430793221, guid: 77cdc378908553647b1b28dfc201db13, type: 3}
   projectileSpawnPoint: {fileID: 8509953328742128183}
-  _rigidbody: {fileID: 0}
+  _rigidbody: {fileID: 413197691820712911}
   _cc: {fileID: -5569526816277254106}
-  moveSpeed: 15
+  moveSpeed: 10
   rotationSpeed: 7.5
   circleDuration: 5
   waypointDistanceThreshold: 2
@@ -109,6 +111,19 @@ MonoBehaviour:
   shootInterval: 3.5
   projectileSpeed: 15
   angleToShootAtPlayer: 0.1
+--- !u!114 &-6723532631448044787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584447242857405605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42f77968ede8824195cdb24f01de9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyType: 1
 --- !u!135 &4999229208544519343
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -155,7 +170,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!143 &-5569526816277254106
 CharacterController:
@@ -176,7 +191,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 3
   m_Height: 2
-  m_Radius: 0.5
+  m_Radius: 0.7
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08

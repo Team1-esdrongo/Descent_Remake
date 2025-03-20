@@ -25,12 +25,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574591450815065431}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.47, y: 0, z: -0.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.47, y: 0.13999939, z: -0.23750019}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2211881075921415188}
+  m_Father: {fileID: 98011599600502322}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3453556301394254807
 MonoBehaviour:
@@ -50,6 +50,9 @@ MonoBehaviour:
   - {fileID: 1086244183385442010}
   bulletForce: 25
   fireRate: 0.5
+  hitLayers:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!1 &1946908208356797407
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,12 +78,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946908208356797407}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.13999939, z: 1.0625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2211881075921415188}
+  m_Father: {fileID: 98011599600502322}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7536390212769170662
 MonoBehaviour:
@@ -135,6 +138,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 62515917062646507}
+  - {fileID: 4089936027667401371}
+  - {fileID: 1086244183385442010}
+  - {fileID: 987988044551983014}
   - {fileID: 2211881075921415188}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -150,12 +156,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef37cb1f73e432543b63e8631584e63a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "velocita\u0300": 400
+  "velocita\u0300": 1000
   cameraPrincipale: {fileID: 7705970541794219528}
-  "sensibilita\u0300Mouse": 5
+  "sensibilita\u0300Mouse": 2
   muzzle: {fileID: 5900081538328433166}
   muzzle1: {fileID: 7536390212769170662}
-  movimento: {x: 0, y: 0, z: 0}
 --- !u!114 &8801626187147927234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d61b06be7cb6e5b49959f77528249ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 200
 --- !u!114 &-1750129688366794648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 8801626187147927234}
-  interactDistance: 3
+  interactDistance: 5
 --- !u!65 &741792790352474373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -263,7 +268,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &5212544788906294913
 GameObject:
@@ -296,10 +301,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.13999967, z: 0.0625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4089936027667401371}
-  - {fileID: 1086244183385442010}
-  - {fileID: 987988044551983014}
+  m_Children: []
   m_Father: {fileID: 98011599600502322}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &7705970541794219528
@@ -430,12 +432,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6857767360858327541}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.415, y: 0, z: -0.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.41499996, y: 0.13999939, z: -0.23750019}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2211881075921415188}
+  m_Father: {fileID: 98011599600502322}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5900081538328433166
 MonoBehaviour:
@@ -455,6 +457,9 @@ MonoBehaviour:
   - {fileID: 1086244183385442010}
   bulletForce: 25
   fireRate: 0.5
+  hitLayers:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!1001 &528223632278605056
 PrefabInstance:
   m_ObjectHideFlags: 0

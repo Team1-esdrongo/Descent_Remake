@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet player
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e577e15ad0faf75429f1c78ebaf7278f, type: 3}
+      propertyPath: m_TagString
+      value: Projectile
+      objectReference: {fileID: 0}
     - target: {fileID: 4191509097384965755, guid: e577e15ad0faf75429f1c78ebaf7278f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -104,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 6
-  damage: 4
+  damage: 8
 --- !u!54 &4700049685853326903
 Rigidbody:
   m_ObjectHideFlags: 0
