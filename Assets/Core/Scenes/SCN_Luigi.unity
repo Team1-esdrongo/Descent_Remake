@@ -165,7 +165,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!65 &5903135
 BoxCollider:
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5903133}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2113b26507c7a664c823f3bc7cf762af, type: 3}
   m_Name: 
@@ -2729,7 +2729,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!65 &1092904360
 BoxCollider:
@@ -2773,7 +2773,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092904358}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2113b26507c7a664c823f3bc7cf762af, type: 3}
   m_Name: 
@@ -3500,6 +3500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1293702846}
+  - component: {fileID: 1293702852}
   - component: {fileID: 1293702850}
   - component: {fileID: 1293702851}
   - component: {fileID: 1293702847}
@@ -3589,7 +3590,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!114 &1293702850
 MonoBehaviour:
@@ -3630,6 +3631,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyType: 1
+--- !u!114 &1293702852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293702845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60bb0b894762034fa0c737afa27aa01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 149806613}
+  - {fileID: 738671838}
+  - {fileID: 1952990472}
+  - {fileID: 1472873156}
+  - {fileID: 226830689}
+  - {fileID: 1207167112}
+  - {fileID: 119837858}
+  - {fileID: 241868781}
+  - {fileID: 1452512749}
+  - {fileID: 898540330}
+  waitTime: 1
+  speed: 175
+  stoppingDistance: 0.5
+  obstacleAvoidanceDistance: 2
+  obstacleAvoidanceForce: 5
+  SphereCastRadius: 1
 --- !u!1 &1304470708
 GameObject:
   m_ObjectHideFlags: 0
@@ -4105,7 +4135,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 16
   m_CollisionDetection: 2
 --- !u!114 &1570050643
 MonoBehaviour:
@@ -5078,7 +5108,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!65 &1796358493
 BoxCollider:
@@ -5122,7 +5152,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796358491}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2113b26507c7a664c823f3bc7cf762af, type: 3}
   m_Name: 
