@@ -10,7 +10,7 @@ public class Movement_Player : MonoBehaviour
     public Player_Shooting muzzle;
     public Player_Shooting_Missle muzzle1;
     private Rigidbody _rigidbody;
-    public Vector3 movimento;
+    private Vector3 movimento;
 
     private void Awake()
     {
