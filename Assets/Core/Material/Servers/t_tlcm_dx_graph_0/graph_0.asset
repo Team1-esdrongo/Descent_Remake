@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Core/Material/Servers/t_tlcm_dx.sbsar
+  RawData: {fileID: -244192453324840774, guid: ea2f833ae2d9c294f8c180a9413621e9, type: 3}
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: cd48f37e-d244-4633-99c0-0b8c617f550d
+  Index: 0
+  Input: []
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 7
+    Description:
+      Identifier: 3d_tlcm_dx_standardSurface1_BaseColor
+      Label: 3d_tlcm_dx_standardSurface1_BaseColor
+      Index: 0
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: d87c891cf1c6f0b41bb045002e28de0b, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BaseMap
+  - Index: 1
+    VirtualOutputIndex: 8
+    Description:
+      Identifier: 3d_tlcm_dx_standardSurface1_Roughness
+      Label: 3d_tlcm_dx_standardSurface1_Roughness
+      Index: 1
+      Type: 8
+      Channel: roughness
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _RoughnessMap
+  - Index: 2
+    VirtualOutputIndex: 9
+    Description:
+      Identifier: 3d_tlcm_dx_standardSurface1_Metallic
+      Label: 3d_tlcm_dx_standardSurface1_Metallic
+      Index: 2
+      Type: 8
+      Channel: metallic
+    OutputTexture: {fileID: 2800000, guid: 402f1565ada74e944a14a7943405fa62, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 3d_tlcm_dx_standardSurface1_Roughness
+    InvertAssignedAlpha: 1
+    Flags: 0
+    MaterialTextureTarget: _MetallicGlossMap
+  - Index: 3
+    VirtualOutputIndex: 10
+    Description:
+      Identifier: 3d_tlcm_dx_standardSurface1_Normal
+      Label: 3d_tlcm_dx_standardSurface1_Normal
+      Index: 3
+      Type: 8
+      Channel: normal
+    OutputTexture: {fileID: 2800000, guid: 7fb25bf029b41ce4a896e4c46640c243, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BumpMap
+  - Index: 4
+    VirtualOutputIndex: 11
+    Description:
+      Identifier: 3d_tlcm_dx_standardSurface1_Height
+      Label: 3d_tlcm_dx_standardSurface1_Height
+      Index: 4
+      Type: 8
+      Channel: height
+    OutputTexture: {fileID: 2800000, guid: 42f4065517ac8d14ba7cefa73cee354e, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _ParallaxMap
+  - Index: 5
+    VirtualOutputIndex: 12
+    Description:
+      Identifier: 3d_tlcm_dx_standardSurface1_Emissive
+      Label: 3d_tlcm_dx_standardSurface1_Emissive
+      Index: 5
+      Type: 8
+      Channel: emissive
+    OutputTexture: {fileID: 2800000, guid: 107ee560c499a1f4e9a17053b448a2ef, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _EmissionMap
+  - Index: 6
+    VirtualOutputIndex: 13
+    Description:
+      Identifier: 3d_tlcm_dx_standardSurface1_AO
+      Label: 3d_tlcm_dx_standardSurface1_AO
+      Index: 6
+      Type: 8
+      Channel: ambientOcclusionBase
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  CurrentStatePreset: 
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 0
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: 9380890e98518f842bc7e2b30dc56690, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://3d_tlcm_dx_standardSurface1\" label=\"\"
+    >\n </sbspreset>\n"
+  MaterialShader: Universal Render Pipeline/Lit
+  RenderTextures: 0
+  OutputRemaped: 0
+  Presets: []
+  references:
+    version: 2
+    RefIds: []
