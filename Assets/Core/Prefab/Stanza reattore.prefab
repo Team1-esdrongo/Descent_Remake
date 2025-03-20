@@ -516,6 +516,7 @@ GameObject:
   - component: {fileID: 2768677383698943637}
   - component: {fileID: 6699158546274921538}
   - component: {fileID: 3922976774716873059}
+  - component: {fileID: 8710750794713936526}
   m_Layer: 0
   m_Name: reattore
   m_TagString: Untagged
@@ -613,6 +614,23 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1631091379394422723, guid: d326036445b9e384fa73c004fa97682e, type: 3}
+--- !u!114 &8710750794713936526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7395408643594861850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a43e8acf086fe240a7b6aa6ee23b61c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactorHealth: 20
+  winText: {fileID: 0}
+  damagingPrefabs:
+  - Bullet player(clone)
+  - razzo(clone)
 --- !u!1 &7645080623608928559
 GameObject:
   m_ObjectHideFlags: 0

@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 1854213738333978675}
   - component: {fileID: 181078931863442022}
   - component: {fileID: 3517748062725780567}
+  - component: {fileID: 2110198635644320142}
   m_Layer: 0
   m_Name: interno_porta
   m_TagString: Untagged
@@ -253,6 +254,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
   m_Center: {x: -1, y: 124, z: -0.53}
+--- !u!114 &2110198635644320142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569826874833202346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5a7c7ea22dd6a46a5ce24d490f6e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 5
+  moveSpeed: 2
+  openDelay: 2
+  activationRange: 5
 --- !u!1 &1144953993236565819
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,6 +501,7 @@ GameObject:
   - component: {fileID: 6263970219419967479}
   - component: {fileID: 7600257459207676120}
   - component: {fileID: 1809159007913162992}
+  - component: {fileID: 664094817417140897}
   m_Layer: 0
   m_Name: interno_porta
   m_TagString: Untagged
@@ -581,6 +599,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
   m_Center: {x: -1, y: 124, z: -0.53}
+--- !u!114 &664094817417140897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2351162743040758025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5a7c7ea22dd6a46a5ce24d490f6e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 5
+  moveSpeed: 2
+  openDelay: 2
+  activationRange: 5
 --- !u!1 &2591892432464867626
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +738,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyRequired: Green_Key
+  moveDistance: 3
+  moveSpeed: 1
 --- !u!1 &3673210564629446157
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,7 +862,7 @@ GameObject:
   - component: {fileID: 2683821529176052890}
   - component: {fileID: 5230889410729299368}
   - component: {fileID: 1379042996213998699}
-  - component: {fileID: 2260809704833948796}
+  - component: {fileID: 1736444714595681611}
   m_Layer: 0
   m_Name: interno_porta
   m_TagString: Untagged
@@ -924,7 +960,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 144, y: 252, z: 21}
   m_Center: {x: -1, y: 124, z: -0.53}
---- !u!114 &2260809704833948796
+--- !u!114 &1736444714595681611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -933,10 +969,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3957884342593226779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df71c2e94196564fa98cc44abbf5241, type: 3}
+  m_Script: {fileID: 11500000, guid: ba5a7c7ea22dd6a46a5ce24d490f6e12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyRequired: Orange_Key
+  moveDistance: 5
+  moveSpeed: 2
+  openDelay: 2
+  activationRange: 5
 --- !u!1 &4521357735963850238
 GameObject:
   m_ObjectHideFlags: 0
