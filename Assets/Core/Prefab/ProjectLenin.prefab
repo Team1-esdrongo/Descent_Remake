@@ -128,12 +128,13 @@ GameObject:
   - component: {fileID: 5361395583462682209}
   - component: {fileID: 7916397888523792086}
   - component: {fileID: 5138141593970287975}
+  - component: {fileID: 4360414805828688631}
   - component: {fileID: 763834065607105234}
   - component: {fileID: 3731832004905060497}
   - component: {fileID: -7920196032760618797}
   m_Layer: 0
   m_Name: ProjectLenin
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  enemy_Score: {fileID: 4360414805828688631}
 --- !u!114 &5138141593970287975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,6 +197,19 @@ MonoBehaviour:
   shootInterval: 4
   projectileSpeed: 10
   angleToShootAtPlayer: 0.1
+--- !u!114 &4360414805828688631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4696216799024542939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42f77968ede8824195cdb24f01de9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyType: 2
 --- !u!65 &763834065607105234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -241,7 +256,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!143 &-7920196032760618797
 CharacterController:
