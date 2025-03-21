@@ -13,6 +13,6 @@ public class VideoManager : MonoBehaviour
 
     private void VideoPlayer_loopPointReached(VideoPlayer source)
     {
-        SceneManager.LoadScene("SCN_Marco");
+        SceneManager.LoadScene("SCN_Alex");
     }
 }

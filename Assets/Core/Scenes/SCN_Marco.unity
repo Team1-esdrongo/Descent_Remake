@@ -1018,10 +1018,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1056102376}
-    - target: {fileID: 3782855532219917561, guid: 37971aa50efccf04aad56dfc63a2a885, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1056102376}
     - target: {fileID: 8233340015602585455, guid: 37971aa50efccf04aad56dfc63a2a885, type: 3}
       propertyPath: m_Name
       value: PauseMenu_Canvas
@@ -1248,6 +1244,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1056102378}
+    - target: {fileID: 4893427760301183990, guid: ab2e1ba1f88fe4b488d9a6e2471f5676, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -440
+      objectReference: {fileID: 0}
     - target: {fileID: 5421792274761957315, guid: ab2e1ba1f88fe4b488d9a6e2471f5676, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1256,6 +1256,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1056102378}
+    - target: {fileID: 6485088227710904256, guid: ab2e1ba1f88fe4b488d9a6e2471f5676, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -440
+      objectReference: {fileID: 0}
     - target: {fileID: 8387849777889072939, guid: ab2e1ba1f88fe4b488d9a6e2471f5676, type: 3}
       propertyPath: m_Name
       value: Win_Canvas
@@ -1339,6 +1343,10 @@ PrefabInstance:
     - target: {fileID: 8420510587882398134, guid: ab2e1ba1f88fe4b488d9a6e2471f5676, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760652791540106994, guid: ab2e1ba1f88fe4b488d9a6e2471f5676, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -440
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

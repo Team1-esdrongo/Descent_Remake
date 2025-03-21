@@ -67,8 +67,8 @@ public class Movement_Player : MonoBehaviour
         _rigidbody.linearVelocity = movimento;
         //transform.Translate(movimento, Space.World);
 
-        float mouseX = Input.GetAxis("Mouse X") * sensibilitàMouse; // Orizontal movement
-        float mouseY = Input.GetAxis("Mouse Y") * sensibilitàMouse; // Vertical movement
+        float mouseX = Input.GetAxis("Mouse X") * SettingsManager.MouseSensitivity; // Orizontal movement
+        float mouseY = Input.GetAxis("Mouse Y") * SettingsManager.MouseSensitivity; // Vertical movement
 
         rotazioneOrizzontale += mouseX;
         rotazioneVerticale += mouseY;
